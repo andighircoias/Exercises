@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">17</td><td class="numi">17</td><td class="numi_attn">14</td><td class="numi">0</td><td class="numi">14.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">test.automation.ChartTest</td><td><a href="#m1"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500428</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.SearchTest</td><td><a href="#m2"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.ContactSignInButtonTest</td><td><a href="#m3"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.CreateAccountErrorTest</td><td><a href="#m4"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.SearchTest</td><td><a href="#m5"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.HomeScreenTest</td><td><a href="#m6"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.FooterTest</td><td><a href="#m7"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.SearchTest</td><td><a href="#m8"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.SignInTest</td><td><a href="#m9"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">test.automation.CreateAccountErrorTest</td><td><a href="#m10"><b>navigateToWantedLink</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m11"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.ChartTest</td><td><a href="#m12"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500430</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.ContactButtonTest</td><td><a href="#m13"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.SearchTest</td><td><a href="#m14"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.SignInTest</td><td><a href="#m15"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.SearchTest</td><td><a href="#m16"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.ContactButtonTest</td><td><a href="#m17"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.FooterTest</td><td><a href="#m18"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.ContactButtonTest</td><td><a href="#m19"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="3">test.sv.HamburgerButtonTest</td><td><a href="#m20"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m21"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m22"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.HomeScreenTest</td><td><a href="#m23"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.SearchTest</td><td><a href="#m24"><b>navigate</b>  </a></td><td class="numi">2</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.HomeScreenTest</td><td><a href="#m25"><b>navigate</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.FooterTest</td><td><a href="#m26"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.SignInTest</td><td><a href="#m27"><b>closeProcess</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.ContactSignInButtonTest</td><td><a href="#m28"><b>initialiseDriver</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.ChartTest</td><td><a href="#m29"><b>navigateToWantedPege</b>  </a></td><td class="numi">1</td><td>1532698500430</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.ContactSignInButtonTest</td><td><a href="#m30"><b>navigateToWantedLink</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">test.automation.ChartTest</td><td><a href="#m31"><b>addToChart</b>  </a></td><td class="numi">1</td><td>1532698500430</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m32"><b>checkAddMoreOfTheSameProductToChart</b>  </a></td><td class="numi">1</td><td>1532698500430</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.ContactButtonTest</td><td><a href="#m33"><b>clickingOnContactButton</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">test.automation.ContactSignInButtonTest</td><td><a href="#m34"><b>navigateToContactLink</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m35"><b>navigateToSingInLink</b>  </a></td><td class="numi">1</td><td>1532698500431</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.automation.CreateAccountErrorTest</td><td><a href="#m36"><b>errorTest</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.sv.FooterTest</td><td><a href="#m37"><b>footerDisplayed</b>  </a></td><td class="numi">1</td><td>1532698500432</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.HamburgerButtonTest</td><td><a href="#m38"><b>clickingOnHamburgerButton</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.SearchTest</td><td><a href="#m39"><b>invalidData</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.HomeScreenTest</td><td><a href="#m40"><b>openPage</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">test.automation.SearchTest</td><td><a href="#m41"><b>searchProcess</b>  </a></td><td class="numi">1</td><td>1532698500433</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">test.sv.SearchTest</td><td><a href="#m42"><b>searchDisplay</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">test.automation.SignInTest</td><td><a href="#m43"><b>signIn</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m44"><b>signOut</b>  </a></td><td class="numi">1</td><td>1532698500434</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="9">api.ApiTest</td><td><a href="#m45"><b>check</b>  </a></td><td class="numi">1</td><td>1532698489721</td><td class="numi">1622</td></tr><tr class="passedodd"><td><a href="#m46"><b>create</b>  </a></td><td class="numi">1</td><td>1532698491343</td><td class="numi">734</td></tr><tr class="passedodd"><td><a href="#m47"><b>getAllUsers</b>  </a></td><td class="numi">1</td><td>1532698492078</td><td class="numi">5921</td></tr><tr class="passedodd"><td><a href="#m48"><b>getUsersRESTAssure</b>  </a></td><td class="numi">1</td><td>1532698497999</td><td class="numi">530</td></tr><tr class="passedodd"><td><a href="#m49"><b>getUsersTestNG</b>  </a></td><td class="numi">1</td><td>1532698498529</td><td class="numi">515</td></tr><tr class="passedodd"><td><a href="#m50"><b>json</b>  </a></td><td class="numi">1</td><td>1532698499044</td><td class="numi">361</td></tr><tr class="passedodd"><td><a href="#m51"><b>notFound</b>  </a></td><td class="numi">1</td><td>1532698499406</td><td class="numi">364</td></tr><tr class="passedodd"><td><a href="#m52"><b>reutrnUsers</b>  </a></td><td class="numi">1</td><td>1532698499770</td><td class="numi">336</td></tr><tr class="passedodd"><td><a href="#m53"><b>statusCodeWhenAdd</b>  </a></td><td class="numi">1</td><td>1532698500106</td><td class="numi">322</td></tr>
+<tr class="passedeven"><td rowspan="2">api.SrcAuthetificationTest</td><td><a href="#m54"><b>authentification</b>  </a></td><td class="numi">1</td><td>1532698500436</td><td class="numi">927</td></tr><tr class="passedeven"><td><a href="#m55"><b>noAuthetificationTest</b>  </a></td><td class="numi">1</td><td>1532698501364</td><td class="numi">529</td></tr>
+<tr class="passedodd"><td rowspan="6">api.UserTest</td><td><a href="#m56"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr><tr class="passedodd"><td><a href="#m57"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr><tr class="passedodd"><td><a href="#m58"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr><tr class="passedodd"><td><a href="#m59"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr><tr class="passedodd"><td><a href="#m60"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr><tr class="passedodd"><td><a href="#m61"><b>runTests</b>  </a></td><td class="numi">6</td><td>1532698501893</td><td class="numi">2363</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">test.automation.ChartTest:initialiseDriver</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.TestPage.initializeDriver2(TestPage.java:86)
+<br/>at test.TestBase.initialiseDriver(TestBase.java:30)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+<br/>at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+<br/>at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+<br/>at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+<br/>at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+<br/>at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">test.sv.SearchTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">test.automation.ContactSignInButtonTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">test.automation.CreateAccountErrorTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">test.automation.SearchTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">test.sv.HomeScreenTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">test.sv.FooterTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">test.sv.SearchTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">test.automation.SignInTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">test.automation.CreateAccountErrorTest:navigateToWantedLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">test.automation.CreateAccountErrorTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">test.automation.ChartTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">test.sv.ContactButtonTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">test.automation.SearchTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">test.automation.SignInTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">test.sv.SearchTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">test.sv.ContactButtonTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">test.sv.FooterTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">test.sv.ContactButtonTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">test.sv.HamburgerButtonTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">test.sv.HamburgerButtonTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">test.sv.HamburgerButtonTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">test.sv.HomeScreenTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">test.automation.SearchTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">test.sv.HomeScreenTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">test.automation.SearchTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">test.sv.FooterTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">test.automation.SignInTest:closeProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">test.automation.ContactSignInButtonTest:initialiseDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">test.automation.ChartTest:navigateToWantedPege</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">test.automation.ContactSignInButtonTest:navigateToWantedLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">test.automation.SearchTest:invalidData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">test.automation.ChartTest:checkAddMoreOfTheSameProductToChart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">test.automation.ContactSignInButtonTest:navigateToSingInLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">test.sv.ContactButtonTest:clickingOnContactButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">test.sv.HomeScreenTest:openPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">test.automation.SignInTest:signOut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">test.sv.SearchTest:searchDisplay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">test.automation.ContactSignInButtonTest:navigateToContactLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">test.automation.CreateAccountErrorTest:errorTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">test.automation.ChartTest:addToChart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">test.sv.FooterTest:footerDisplayed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">test.sv.HamburgerButtonTest:clickingOnHamburgerButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">test.automation.SearchTest:searchProcess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">test.automation.SignInTest:signIn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">api.ApiTest:getUsersRESTAssure</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">api.ApiTest:statusCodeWhenAdd</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">api.SrcAuthetificationTest:noAuthetificationTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Simona Halep</td>
+<td>tennis player</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">api.ApiTest:getUsersTestNG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">api.SrcAuthetificationTest:authentification</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>ToolsQA</td>
+<td>TestPassword</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">api.ApiTest:reutrnUsers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Klaus Iohannis</td>
+<td>president</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">api.ApiTest:getAllUsers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Ion Creanga</td>
+<td>writer</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">api.ApiTest:check</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">api.ApiTest:notFound</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Joey Tribianni</td>
+<td>actor</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">api.ApiTest:create</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Mihai Eminescu</td>
+<td>poet</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">api.UserTest:runTests</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Joey Tribianni</td>
+<td>actor</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">api.ApiTest:json</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

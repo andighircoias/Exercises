@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="test.sv.FooterTest">
+        <methods>
+          <include name="footerDisplayed"/>
+          <include name="selectPlatform"/>
+        </methods>
+      </class> <!-- test.sv.FooterTest -->
+      <class name="test.sv.ContactButtonTest">
+        <methods>
+          <include name="clickingOnContactButton"/>
+        </methods>
+      </class> <!-- test.sv.ContactButtonTest -->
+      <class name="test.automation.ContactSignInButtonTest">
+        <methods>
+          <include name="navigateToContactLink"/>
+          <include name="navigateToSingInLink"/>
+        </methods>
+      </class> <!-- test.automation.ContactSignInButtonTest -->
+      <class name="test.sv.HamburgerButtonTest">
+        <methods>
+          <include name="clickingOnHamburgerButton"/>
+        </methods>
+      </class> <!-- test.sv.HamburgerButtonTest -->
+      <class name="test.sv.HomeScreenTest">
+        <methods>
+          <include name="openPage"/>
+        </methods>
+      </class> <!-- test.sv.HomeScreenTest -->
+      <class name="test.sv.SearchTest">
+        <methods>
+          <include name="searchDisplay"/>
+        </methods>
+      </class> <!-- test.sv.SearchTest -->
+      <class name="test.automation.CreateAccountErrorTest">
+        <methods>
+          <include name="errorTest"/>
+        </methods>
+      </class> <!-- test.automation.CreateAccountErrorTest -->
+      <class name="test.automation.ChartTest">
+        <methods>
+          <include name="checkAddMoreOfTheSameProductToChart"/>
+          <include name="addToChart"/>
+          <include name="initialiseDriver"/>
+        </methods>
+      </class> <!-- test.automation.ChartTest -->
+      <class name="test.automation.SearchTest">
+        <methods>
+          <include name="invalidData"/>
+          <include name="searchProcess"/>
+        </methods>
+      </class> <!-- test.automation.SearchTest -->
+      <class name="test.automation.SignInTest">
+        <methods>
+          <include name="signOut"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- test.automation.SignInTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

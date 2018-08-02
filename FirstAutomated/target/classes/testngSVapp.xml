@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<test name="ro.sv.selenium.FirstAutomated">
+	<parameter name="platform" value="mobile"></parameter>
+	<parameter name="app" value = "https://www.softvision.com/"></parameter>
+		<classes>
+			<class name="test.sv.HomeScreenTest"></class>
+			<!--<class name="test.sv.SearchTest"></class>
+			<class name="test.sv.HamburgerButtonTest"></class>
+			<class name="test.sv.ContactButtonTest"></class>
+			<class name="test.sv.FooterTest"></class>-->
+		</classes>
+	</test>
+</suite>

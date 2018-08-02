@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-skipped">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,  14 skipped,  17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.ChartTest" hash-for-method="addToChart">addToChart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.ChartTest" hash-for-method="checkAddMoreOfTheSameProductToChart">checkAddMoreOfTheSameProductToChart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.sv.ContactButtonTest" hash-for-method="clickingOnContactButton">clickingOnContactButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.sv.HamburgerButtonTest" hash-for-method="clickingOnHamburgerButton">clickingOnHamburgerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.CreateAccountErrorTest" hash-for-method="errorTest">errorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.sv.FooterTest" hash-for-method="footerDisplayed">footerDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.SearchTest" hash-for-method="invalidData">invalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.ContactSignInButtonTest" hash-for-method="navigateToContactLink">navigateToContactLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.ContactSignInButtonTest" hash-for-method="navigateToSingInLink">navigateToSingInLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.sv.HomeScreenTest" hash-for-method="openPage">openPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.sv.SearchTest" hash-for-method="searchDisplay">searchDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.SearchTest" hash-for-method="searchProcess">searchProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.SignInTest" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.automation.SignInTest" hash-for-method="signOut">signOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.SrcAuthetificationTest" hash-for-method="authentification(ToolsQA, TestPassword)">authentification(ToolsQA, TestPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="check">check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="getAllUsers">getAllUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="getUsersRESTAssure">getUsersRESTAssure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="getUsersTestNG">getUsersTestNG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="json">json</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.SrcAuthetificationTest" hash-for-method="noAuthetificationTest">noAuthetificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="notFound">notFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="reutrnUsers">reutrnUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Simona Halep, tennis player)">runTests(Simona Halep, tennis player)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Klaus Iohannis, president)">runTests(Klaus Iohannis, president)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Ion Creanga, writer)">runTests(Ion Creanga, writer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Joey Tribianni, actor)">runTests(Joey Tribianni, actor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Mihai Eminescu, poet)">runTests(Mihai Eminescu, poet)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.UserTest" hash-for-method="runTests(Joey Tribianni, actor)">runTests(Joey Tribianni, actor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="api.ApiTest" hash-for-method="statusCodeWhenAdd">statusCodeWhenAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.sv.FooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerDisplayed">
+                  </a> <!-- footerDisplayed -->
+                  <span class="method-name">footerDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.sv.ContactButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickingOnContactButton">
+                  </a> <!-- clickingOnContactButton -->
+                  <span class="method-name">clickingOnContactButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.automation.ContactSignInButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToContactLink">
+                  </a> <!-- navigateToContactLink -->
+                  <span class="method-name">navigateToContactLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToSingInLink">
+                  </a> <!-- navigateToSingInLink -->
+                  <span class="method-name">navigateToSingInLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.sv.HomeScreenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openPage">
+                  </a> <!-- openPage -->
+                  <span class="method-name">openPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.sv.HamburgerButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickingOnHamburgerButton">
+                  </a> <!-- clickingOnHamburgerButton -->
+                  <span class="method-name">clickingOnHamburgerButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.sv.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDisplay">
+                  </a> <!-- searchDisplay -->
+                  <span class="method-name">searchDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.automation.CreateAccountErrorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorTest">
+                  </a> <!-- errorTest -->
+                  <span class="method-name">errorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.automation.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidData">
+                  </a> <!-- invalidData -->
+                  <span class="method-name">invalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProcess">
+                  </a> <!-- searchProcess -->
+                  <span class="method-name">searchProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.automation.ChartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToChart">
+                  </a> <!-- addToChart -->
+                  <span class="method-name">addToChart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAddMoreOfTheSameProductToChart">
+                  </a> <!-- checkAddMoreOfTheSameProductToChart -->
+                  <span class="method-name">checkAddMoreOfTheSameProductToChart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.automation.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn">
+                  </a> <!-- signIn -->
+                  <span class="method-name">signIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOut">
+                  </a> <!-- signOut -->
+                  <span class="method-name">signOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.UserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Simona Halep, tennis player)">
+                  </a> <!-- runTests(Simona Halep, tennis player) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Simona Halep, tennis player)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Klaus Iohannis, president)">
+                  </a> <!-- runTests(Klaus Iohannis, president) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Klaus Iohannis, president)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Ion Creanga, writer)">
+                  </a> <!-- runTests(Ion Creanga, writer) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Ion Creanga, writer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Joey Tribianni, actor)">
+                  </a> <!-- runTests(Joey Tribianni, actor) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Joey Tribianni, actor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Mihai Eminescu, poet)">
+                  </a> <!-- runTests(Mihai Eminescu, poet) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Mihai Eminescu, poet)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTests(Joey Tribianni, actor)">
+                  </a> <!-- runTests(Joey Tribianni, actor) -->
+                  <span class="method-name">runTests</span>
+                  <span class="parameters">(Joey Tribianni, actor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.SrcAuthetificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authentification(ToolsQA, TestPassword)">
+                  </a> <!-- authentification(ToolsQA, TestPassword) -->
+                  <span class="method-name">authentification</span>
+                  <span class="parameters">(ToolsQA, TestPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noAuthetificationTest">
+                  </a> <!-- noAuthetificationTest -->
+                  <span class="method-name">noAuthetificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.ApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check">
+                  </a> <!-- check -->
+                  <span class="method-name">check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUsers">
+                  </a> <!-- getAllUsers -->
+                  <span class="method-name">getAllUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersRESTAssure">
+                  </a> <!-- getUsersRESTAssure -->
+                  <span class="method-name">getUsersRESTAssure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersTestNG">
+                  </a> <!-- getUsersTestNG -->
+                  <span class="method-name">getUsersTestNG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="json">
+                  </a> <!-- json -->
+                  <span class="method-name">json</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notFound">
+                  </a> <!-- notFound -->
+                  <span class="method-name">notFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reutrnUsers">
+                  </a> <!-- reutrnUsers -->
+                  <span class="method-name">reutrnUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusCodeWhenAdd">
+                  </a> <!-- statusCodeWhenAdd -->
+                  <span class="method-name">statusCodeWhenAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.ApiTest&quot;/&gt;
+      &lt;class name=&quot;api.SrcAuthetificationTest&quot;/&gt;
+      &lt;class name=&quot;api.UserTest&quot;/&gt;
+      &lt;class name=&quot;test.automation.ChartTest&quot;/&gt;
+      &lt;class name=&quot;test.automation.ContactSignInButtonTest&quot;/&gt;
+      &lt;class name=&quot;test.automation.CreateAccountErrorTest&quot;/&gt;
+      &lt;class name=&quot;test.automation.SearchTest&quot;/&gt;
+      &lt;class name=&quot;test.automation.SignInTest&quot;/&gt;
+      &lt;class name=&quot;test.sv.ContactButtonTest&quot;/&gt;
+      &lt;class name=&quot;test.sv.FooterTest&quot;/&gt;
+      &lt;class name=&quot;test.sv.HamburgerButtonTest&quot;/&gt;
+      &lt;class name=&quot;test.sv.HomeScreenTest&quot;/&gt;
+      &lt;class name=&quot;test.sv.SearchTest&quot;/&gt;
+      &lt;class name=&quot;test.TestBase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAllUsers')
+data.setCell(0, 2, 'api.ApiTest')
+data.setCell(0, 3, 5921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'check')
+data.setCell(1, 2, 'api.ApiTest')
+data.setCell(1, 3, 1622);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'authentification')
+data.setCell(2, 2, 'api.SrcAuthetificationTest')
+data.setCell(2, 3, 927);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'create')
+data.setCell(3, 2, 'api.ApiTest')
+data.setCell(3, 3, 734);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUsersRESTAssure')
+data.setCell(4, 2, 'api.ApiTest')
+data.setCell(4, 3, 530);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'noAuthetificationTest')
+data.setCell(5, 2, 'api.SrcAuthetificationTest')
+data.setCell(5, 3, 529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getUsersTestNG')
+data.setCell(6, 2, 'api.ApiTest')
+data.setCell(6, 3, 515);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runTests')
+data.setCell(7, 2, 'api.UserTest')
+data.setCell(7, 3, 507);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runTests')
+data.setCell(8, 2, 'api.UserTest')
+data.setCell(8, 3, 496);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'notFound')
+data.setCell(9, 2, 'api.ApiTest')
+data.setCell(9, 3, 364);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runTests')
+data.setCell(10, 2, 'api.UserTest')
+data.setCell(10, 3, 362);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'json')
+data.setCell(11, 2, 'api.ApiTest')
+data.setCell(11, 3, 361);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runTests')
+data.setCell(12, 2, 'api.UserTest')
+data.setCell(12, 3, 347);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'reutrnUsers')
+data.setCell(13, 2, 'api.ApiTest')
+data.setCell(13, 3, 336);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runTests')
+data.setCell(14, 2, 'api.UserTest')
+data.setCell(14, 3, 328);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runTests')
+data.setCell(15, 2, 'api.UserTest')
+data.setCell(15, 3, 323);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'statusCodeWhenAdd')
+data.setCell(16, 2, 'api.ApiTest')
+data.setCell(16, 3, 322);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'invalidData')
+data.setCell(17, 2, 'test.automation.SearchTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkAddMoreOfTheSameProductToChart')
+data.setCell(18, 2, 'test.automation.ChartTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'navigateToSingInLink')
+data.setCell(19, 2, 'test.automation.ContactSignInButtonTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickingOnContactButton')
+data.setCell(20, 2, 'test.sv.ContactButtonTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'openPage')
+data.setCell(21, 2, 'test.sv.HomeScreenTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'signOut')
+data.setCell(22, 2, 'test.automation.SignInTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchDisplay')
+data.setCell(23, 2, 'test.sv.SearchTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'navigateToContactLink')
+data.setCell(24, 2, 'test.automation.ContactSignInButtonTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'errorTest')
+data.setCell(25, 2, 'test.automation.CreateAccountErrorTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'addToChart')
+data.setCell(26, 2, 'test.automation.ChartTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'footerDisplayed')
+data.setCell(27, 2, 'test.sv.FooterTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'clickingOnHamburgerButton')
+data.setCell(28, 2, 'test.sv.HamburgerButtonTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'searchProcess')
+data.setCell(29, 2, 'test.automation.SearchTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'signIn')
+data.setCell(30, 2, 'test.automation.SignInTest')
+data.setCell(30, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.sv.ContactButtonTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.automation.ContactSignInButtonTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.sv.HamburgerButtonTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.sv.HomeScreenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.sv.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.automation.CreateAccountErrorTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.automation.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.automation.ChartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TestBase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.automation.SignInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectPlatform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.FooterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">selectPlatform(org.testng.TestRunner@2459319c)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">check</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">1634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllUsers</span>
+                <span class="method-start">2369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsersRESTAssure</span>
+                <span class="method-start">8290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsersTestNG</span>
+                <span class="method-start">8820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">json</span>
+                <span class="method-start">9335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notFound</span>
+                <span class="method-start">9697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reutrnUsers</span>
+                <span class="method-start">10061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusCodeWhenAdd</span>
+                <span class="method-start">10397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.ChartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initialiseDriver</span>
+                <span class="method-start">10719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addToChart</span>
+                <span class="method-start">10721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAddMoreOfTheSameProductToChart</span>
+                <span class="method-start">10721 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.ContactButtonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickingOnContactButton</span>
+                <span class="method-start">10722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.ContactSignInButtonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToContactLink</span>
+                <span class="method-start">10722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToSingInLink</span>
+                <span class="method-start">10722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.CreateAccountErrorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">errorTest</span>
+                <span class="method-start">10723 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.FooterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">footerDisplayed</span>
+                <span class="method-start">10723 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.HamburgerButtonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickingOnHamburgerButton</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.SearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidData</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.HomeScreenTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openPage</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.SearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProcess</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.sv.SearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchDisplay</span>
+                <span class="method-start">10725 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.automation.SignInTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signIn</span>
+                <span class="method-start">10725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signOut</span>
+                <span class="method-start">10725 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.SrcAuthetificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">authentification(ToolsQA, TestPassword)</span>
+                <span class="method-start">10727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noAuthetificationTest</span>
+                <span class="method-start">11655 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runTests(Ion Creanga, writer)</span>
+                <span class="method-start">12184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTests(Mihai Eminescu, poet)</span>
+                <span class="method-start">12691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTests(Simona Halep, tennis player)</span>
+                <span class="method-start">13038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTests(Klaus Iohannis, president)</span>
+                <span class="method-start">13361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTests(Joey Tribianni, actor)</span>
+                <span class="method-start">13857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTests(Joey Tribianni, actor)</span>
+                <span class="method-start">14185 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

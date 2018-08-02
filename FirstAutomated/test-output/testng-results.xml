@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="8878" started-at="2018-07-30T06:09:16Z" finished-at="2018-07-30T06:09:25Z">
+    <groups>
+    </groups>
+    <test name="ro.sv.selenium.FirstAutomated" duration-ms="8878" started-at="2018-07-30T06:09:16Z" finished-at="2018-07-30T06:09:25Z">
+      <class name="test.sv.HomeScreenTest">
+        <test-method status="PASS" signature="selectPlatform(org.testng.ITestContext)[pri:0, instance:test.sv.HomeScreenTest@5f9d02cb]" name="selectPlatform" is-config="true" duration-ms="12" started-at="2018-07-30T06:09:16Z" finished-at="2018-07-30T06:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51c693d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPlatform -->
+        <test-method status="PASS" signature="initialiseDriver()[pri:0, instance:test.sv.HomeScreenTest@5f9d02cb]" name="initialiseDriver" is-config="true" duration-ms="2626" started-at="2018-07-30T06:09:16Z" finished-at="2018-07-30T06:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:test.sv.HomeScreenTest@5f9d02cb]" name="navigate" is-config="true" duration-ms="3248" started-at="2018-07-30T06:09:19Z" finished-at="2018-07-30T06:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:test.sv.HomeScreenTest@5f9d02cb]" name="openPage" duration-ms="16" started-at="2018-07-30T06:09:22Z" finished-at="2018-07-30T06:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="closeProcess()[pri:0, instance:test.sv.HomeScreenTest@5f9d02cb]" name="closeProcess" is-config="true" duration-ms="2971" started-at="2018-07-30T06:09:22Z" finished-at="2018-07-30T06:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProcess -->
+      </class> <!-- test.sv.HomeScreenTest -->
+    </test> <!-- ro.sv.selenium.FirstAutomated -->
+  </suite> <!-- Suite1 -->
+</testng-results>
